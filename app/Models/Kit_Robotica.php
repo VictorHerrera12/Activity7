@@ -8,4 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class Kit_Robotica extends Model
 {
     use HasFactory;
+
+
+    protected $fillable = [
+        'kit_robotica',
+    ];
 }
